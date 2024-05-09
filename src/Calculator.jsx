@@ -12,6 +12,8 @@ const Calculator = () => {
         if(calcInput){
             let result = eval(calcInput)
             setShowResult(result)
+        }else{
+            setShowResult("Error")
         }
     }
     const handleClear = () =>{
