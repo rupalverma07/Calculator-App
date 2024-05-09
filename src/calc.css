@@ -1,0 +1,26 @@
+.container{
+    height: 600px;
+    width: 500px;
+    border: 1px solid black;
+    margin: 50px;
+}
+
+.calc-grid{
+    display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+  margin-top: 18px;
+  padding: 18px;
+}
+
+.operator{
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.result{
+    font-size: 16px;
+    margin-top: 16px;
+}
